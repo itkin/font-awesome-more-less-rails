@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'font-awesome-more-sass-rails/version'
+require 'font-awesome-more-less-rails/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'font-awesome-more-sass-rails'
+  s.name        = 'font-awesome-more-less-rails'
   s.version     = Font::AwesomeMore::Sass::Rails::VERSION
-  s.authors     = ['Ramy Aboul Naga']
-  s.email       = ['ramy.naga@gmail.com']
-  s.homepage    = 'https://github.com/RaMin0/font-awesome-more-sass-rails'
-  s.summary     = %q{Font Awesome More in SASS for Rails}
-  s.description = %q{Font Awesome More, SASS version, with assets pipeline, for Rails 3.1+}
+  s.authors     = ['iktin']
+  s.email       = ["nicolas.papon@webflows.fr"]
+  s.homepage    = 'https://github.com/itkin/font-awesome-more-less-rails'
+  s.summary     = %q{Font Awesome More in LESS for Rails}
+  s.description = %q{Font Awesome More, LESS version, with assets pipeline, for Rails 3.1+}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -20,5 +20,5 @@ Gem::Specification.new do |s|
   # s.add_development_dependency 'rspec'
   # s.add_runtime_dependency 'rest-client'
   s.add_runtime_dependency 'railties', '>= 3.1.1'
-  s.add_runtime_dependency 'sass-rails', '>= 3.1.1'
+  s.add_runtime_dependency 'less-rails', '>= 3.1.1'
 end
