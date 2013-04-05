@@ -1,6 +1,6 @@
 module Font
   module AwesomeMore
-    module Sass
+    module Less
       module Rails
         class Engine < ::Rails::Engine
         end

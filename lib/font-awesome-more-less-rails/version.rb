@@ -1,6 +1,6 @@
 module Font
   module AwesomeMore
-    module Sass
+    module Less
       module Rails
         VERSION = '2.0.0.0'
       end

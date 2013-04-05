@@ -4,7 +4,7 @@ require 'font-awesome-more-less-rails/version'
 
 Gem::Specification.new do |s|
   s.name        = 'font-awesome-more-less-rails'
-  s.version     = Font::AwesomeMore::Sass::Rails::VERSION
+  s.version     = Font::AwesomeMore::Less::Rails::VERSION
   s.authors     = ['iktin']
   s.email       = ["nicolas.papon@webflows.fr"]
   s.homepage    = 'https://github.com/itkin/font-awesome-more-less-rails'
@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency 'rspec'
   # s.add_runtime_dependency 'rest-client'
-  s.add_runtime_dependency 'railties', '>= 3.1.1'
-  s.add_runtime_dependency 'less-rails', '>= 3.1.1'
+  #s.add_runtime_dependency 'railties', '>= 3.1.1'
+  #s.add_runtime_dependency 'less-rails', '>= 3.1.1'
 end

@@ -1,4 +1,4 @@
-# Font Awesome More 2.0 + SASS + Rails
+# Font Awesome More 2.0 + LESS + Rails
 
 With SCSS and fonts from [Font Awesome More](http://gregoryloucas.github.com/Font-Awesome-More), `font-awesome-more-sass-rails` is a gem to integrate Font Awesome More to your Rails application.
 
@@ -11,22 +11,18 @@ It supports Rails 3.1.1 and older.
 Add `font-awesome-more-sass-rails` gem to your `assets` group in the `Gemfile`:
 
     group :assets do
-      gem 'sass-rails', "  ~> x.x.x"
+      gem 'less-rails', "  ~> x.x.x"
       gem 'coffee-rails', "~> x.x.x"
       gem 'uglifier'
-      gem 'font-awesome-more-sass-rails'
+      gem 'font-awesome-more-less-rails', :require => "font-awesome-more-less-rails"
     end
 
 Then in your `app/assets/stylesheets/application.css`:
 
-    @import 'font-awesome-more';
+    @import 'font-awesome-more-all';
 
 That's it!
 
-You can also use it with the SASS-converted Bootstrap gem, like [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) or [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails). Just import font-awesome right after bootstrap:
-
-    @import 'bootstrap';
-    @import 'font-awesome-more';
 
 ### IE7 Support
 

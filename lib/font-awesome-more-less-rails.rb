@@ -1,9 +1,9 @@
 module Font
   module AwesomeMore
-    module Sass
+    module Less
       module Rails
-        require 'font-awesome-more-sass-rails/engine'
-        require 'font-awesome-more-sass-rails/version'
+        require 'font-awesome-more-less-rails/engine'
+        require 'font-awesome-more-less-rails/version'
       end
     end
   end
